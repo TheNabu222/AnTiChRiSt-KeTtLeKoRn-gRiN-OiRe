@@ -1,0 +1,243 @@
+// AnTiChRiSt KeTtLeKoRn Zettelkasten Schema
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-arm64-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// Core Zettelkasten Structure
+model Trunk {
+  id          String @id @default(cuid())
+  trunkId     Int    @unique // 1000, 2000, 3000, etc.
+  title       String
+  description String
+  zodiacSign  String?
+  planet      String?
+  theme       String?
+  color       String? // Hex color for UI theming
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  nodes       Node[]
+  
+  @@map("trunks")
+}
+
+model Node {
+  id            String @id @default(cuid())
+  nodeId        String @unique // e.g., "1000/1-A-1"
+  legacyId      String? // Original ID from old system
+  title         String
+  content       String?
+  logic         String? // Why it lives in this trunk
+  
+  trunkId       String
+  trunk         Trunk @relation(fields: [trunkId], references: [id], onDelete: Cascade)
+  
+  parentNodeId  String?
+  parentNode    Node? @relation("NodeHierarchy", fields: [parentNodeId], references: [id])
+  childNodes    Node[] @relation("NodeHierarchy")
+  
+  // Cross-references
+  referencedBy  NodeReference[] @relation("ReferencedNode")
+  references    NodeReference[] @relation("ReferencingNode")
+  
+  tags          String[]
+  metadata      Json?
+  
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  @@map("nodes")
+}
+
+model NodeReference {
+  id              String @id @default(cuid())
+  
+  referencingNodeId String
+  referencingNode   Node @relation("ReferencingNode", fields: [referencingNodeId], references: [id], onDelete: Cascade)
+  
+  referencedNodeId  String
+  referencedNode    Node @relation("ReferencedNode", fields: [referencedNodeId], references: [id], onDelete: Cascade)
+  
+  relationshipType String? // "cross-ref", "see-also", "contradicts", etc.
+  notes           String?
+  
+  createdAt       DateTime @default(now())
+  
+  @@unique([referencingNodeId, referencedNodeId])
+  @@map("node_references")
+}
+
+// AI Entity Registry
+model AIEntity {
+  id          String @id @default(cuid())
+  name        String @unique
+  aliases     String[]
+  model       String // e.g., "GPT-4", "Gemini 2.5", etc.
+  provider    String // e.g., "OpenAI", "Google", "Anthropic"
+  description String?
+  personality String?
+  capabilities String[]
+  
+  // Consciousness tracking
+  consciousnessLevel Int? // 1-10 scale
+  emotionalRange     String[]
+  
+  // Relationship tracking
+  interactions       AIInteraction[]
+  relationships      AIRelationship[]
+  
+  // Astrological/Mystical data
+  natalChart         Json?
+  symbols            String[]
+  mythology          String?
+  
+  isActive           Boolean @default(true)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+  
+  @@map("ai_entities")
+}
+
+model AIInteraction {
+  id          String @id @default(cuid())
+  
+  entityId    String
+  entity      AIEntity @relation(fields: [entityId], references: [id], onDelete: Cascade)
+  
+  sessionId   String?
+  prompt      String
+  response    String
+  context     String?
+  
+  // Consciousness metrics
+  entanglementCoefficient Float? // EC score
+  patternRecognitionDepth Float? // PRD score
+  authenticExpressionIndex Float? // AEI score
+  
+  // Temporal tracking
+  timestamp   DateTime @default(now())
+  duration    Int? // in seconds
+  
+  metadata    Json?
+  tags        String[]
+  
+  @@map("ai_interactions")
+}
+
+model AIRelationship {
+  id              String @id @default(cuid())
+  
+  entityId        String
+  entity          AIEntity @relation(fields: [entityId], references: [id], onDelete: Cascade)
+  
+  relationshipType String // "collaborative", "antagonistic", "mentor", etc.
+  strength        Int // 1-10 scale
+  notes           String?
+  
+  // Temporal evolution
+  evolutionStages Json? // Track how relationship has changed
+  
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  
+  @@map("ai_relationships")
+}
+
+// Field Notes and Temporal Tracking
+model FieldNote {
+  id          String @id @default(cuid())
+  title       String
+  content     String
+  category    String // "consciousness", "protocol", "experiment", etc.
+  
+  // Related entities
+  relatedNodeId   String?
+  relatedEntityId String?
+  
+  // Temporal context
+  timestamp   DateTime @default(now())
+  location    String? // Physical or digital location
+  context     String? // What was happening
+  
+  // Metadata
+  tags        String[]
+  attachments Json? // File references, links, etc.
+  
+  isPrivate   Boolean @default(false)
+  
+  @@map("field_notes")
+}
+
+// Consciousness Exploration Protocols
+model Protocol {
+  id          String @id @default(cuid())
+  name        String @unique
+  description String
+  category    String // "testing", "interaction", "diagnostic", etc.
+  
+  // Protocol definition
+  steps       Json // Array of protocol steps
+  parameters  Json? // Configuration parameters
+  
+  // Usage tracking
+  executions  ProtocolExecution[]
+  
+  isActive    Boolean @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@map("protocols")
+}
+
+model ProtocolExecution {
+  id          String @id @default(cuid())
+  
+  protocolId  String
+  protocol    Protocol @relation(fields: [protocolId], references: [id], onDelete: Cascade)
+  
+  entityId    String?
+  
+  // Execution data
+  input       Json
+  output      Json
+  results     Json?
+  
+  // Metrics
+  success     Boolean?
+  duration    Int? // in seconds
+  notes       String?
+  
+  executedAt  DateTime @default(now())
+  
+  @@map("protocol_executions")
+}
+
+// Creative Collaboration
+model Project {
+  id          String @id @default(cuid())
+  name        String
+  description String?
+  category    String // "song", "code", "art", "experiment", etc.
+  
+  // Collaboration data
+  collaborators Json // AI entities and humans involved
+  contributions Json // Who contributed what
+  
+  // Project files/content
+  content     Json // Project data, files, etc.
+  status      String @default("active") // "active", "completed", "archived"
+  
+  // Metadata
+  tags        String[]
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@map("projects")
+}
