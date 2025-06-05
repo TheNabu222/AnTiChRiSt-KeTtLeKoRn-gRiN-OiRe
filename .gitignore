@@ -1,0 +1,25 @@
+# Build outputs
+/dist/
+**/dist/
+
+# Node modules
+/node_modules/
+**/node_modules/
+
+# Next.js build
+.next/
+
+# Misc artifacts
+*.zip
+*.pdf
+Uploads/
+
+# OS
+.DS_Store
+anzu_altar_2.txt
+app_analysis.md
+extracted_trunks_1000-24000.md
+messenger_crossref_analysis.md
+new_content_analysis.md
+updated_zettels_analysis.md
+
