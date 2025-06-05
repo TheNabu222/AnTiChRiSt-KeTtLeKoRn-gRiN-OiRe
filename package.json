@@ -1,0 +1,7 @@
+{
+  "name": "grin-oi-re",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "echo \"No JS tests\""
+  }
+}
