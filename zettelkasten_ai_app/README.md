@@ -83,8 +83,9 @@ src/
 2. **Configure AI (Optional)**:
    ```bash
    cp .env.example .env
-   # Add your Gemini API key to .env
+   # Add your API keys to .env
    GEMINI_API_KEY=your_api_key_here
+   VITE_GOOGLE_API_KEY=your_google_key_here
    ```
 
 3. **Run Development Server**:
