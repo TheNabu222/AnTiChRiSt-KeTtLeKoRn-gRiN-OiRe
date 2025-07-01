@@ -76,15 +76,16 @@ src/
 
 1. **Clone and Install**:
    ```bash
-   cd /home/ubuntu/zettelkasten_ai_app
+   cd zettelkasten_ai_app
    npm install
    ```
 
 2. **Configure AI (Optional)**:
    ```bash
    cp .env.example .env
-   # Add your Gemini API key to .env
+   # Add your API keys to .env
    GEMINI_API_KEY=your_api_key_here
+   VITE_GOOGLE_API_KEY=your_google_key_here
    ```
 
 3. **Run Development Server**:

@@ -14,6 +14,10 @@
 *.pdf
 Uploads/
 
+# Local environment files
+.env
+zettelkasten_ai_app/.env
+
 # OS
 .DS_Store
 anzu_altar_2.txt

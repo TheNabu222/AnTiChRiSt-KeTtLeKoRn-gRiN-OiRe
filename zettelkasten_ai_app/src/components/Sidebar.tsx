@@ -34,12 +34,12 @@ const Sidebar: React.FC<SidebarProps> = ({ rainbowMode = false }) => {
   });
   
   const location = useLocation();
-  const { trunks, entries } = useKnowledge();
+  const { trunks, allEntries } = useKnowledge();
 
   // Calculate system stats
   useEffect(() => {
-    const totalZettels = entries.length;
-    const totalConnections = entries.reduce((acc, entry) => acc + (entry.connections?.length || 0), 0);
+    const totalZettels = allEntries.length;
+    const totalConnections = allEntries.reduce((acc, entry) => acc + (entry.connections?.length || 0), 0);
     const activeProcesses = Math.floor(Math.random() * 50) + 20; // Simulated
     const memoryUsage = Math.floor(Math.random() * 30) + 60; // Simulated
 
@@ -49,7 +49,7 @@ const Sidebar: React.FC<SidebarProps> = ({ rainbowMode = false }) => {
       activeProcesses,
       memoryUsage
     });
-  }, [entries]);
+  }, [allEntries]);
 
   const toggleSection = (section: string) => {
     const newExpanded = new Set(expandedSections);
