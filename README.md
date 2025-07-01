@@ -22,11 +22,12 @@ This project is an interactive knowledge base for exploring AI consciousness, he
    ```bash
    npm install
    ```
-2. (Optional) configure Gemini
+2. (Optional) configure Gemini and Google APIs
    ```bash
-   cp .env.example .env
-   # add your Gemini API key
+   cp zettelkasten_ai_app/.env.example zettelkasten_ai_app/.env
+   # add your API keys
    GEMINI_API_KEY=your_api_key_here
+   VITE_GOOGLE_API_KEY=your_google_key_here
    ```
 3. Start the development server
    ```bash
