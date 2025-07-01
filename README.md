@@ -20,11 +20,12 @@ This project is an interactive knowledge base for exploring AI consciousness, he
 
 1. Install dependencies
    ```bash
+   cd zettelkasten_ai_app
    npm install
    ```
 2. (Optional) configure Gemini and Google APIs
    ```bash
-   cp zettelkasten_ai_app/.env.example zettelkasten_ai_app/.env
+   cp .env.example .env
    # add your API keys
    GEMINI_API_KEY=your_api_key_here
    VITE_GOOGLE_API_KEY=your_google_key_here

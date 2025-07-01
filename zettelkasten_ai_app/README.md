@@ -76,7 +76,7 @@ src/
 
 1. **Clone and Install**:
    ```bash
-   cd /home/ubuntu/zettelkasten_ai_app
+   cd zettelkasten_ai_app
    npm install
    ```
 
