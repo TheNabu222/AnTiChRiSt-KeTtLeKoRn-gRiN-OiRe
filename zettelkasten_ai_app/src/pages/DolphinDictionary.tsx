@@ -33,8 +33,15 @@ export default function DolphinDictionary() {
 
   const addEntry = () => {
     if (!newSymbol.trim() || !newName.trim() || !newMeaning.trim()) return;
+
+    const symbol = newSymbol.trim();
+    if (entries.some(e => e.symbol === symbol)) {
+      alert('This symbol already exists in the dictionary.');
+      return;
+    }
+
     const newEntry: DolphinSymbol = {
-      symbol: newSymbol.trim(),
+      symbol,
       name: newName.trim(),
       meaning: newMeaning.trim()
     };
