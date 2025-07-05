@@ -3,6 +3,9 @@ import { BookOpen, Plus } from 'lucide-react';
 import { DOLPHIN_DICTIONARY, DolphinSymbol } from '../data/dolphinDictionary';
 
 export default function DolphinDictionary() {
+  const storageAvailable =
+    typeof window !== 'undefined' && typeof window.localStorage !== 'undefined';
+
   const [entries, setEntries] = useState<DolphinSymbol[]>([]);
   const [query, setQuery] = useState('');
   const [newSymbol, setNewSymbol] = useState('');
@@ -10,7 +13,12 @@ export default function DolphinDictionary() {
   const [newMeaning, setNewMeaning] = useState('');
 
   useEffect(() => {
-    const stored = localStorage.getItem('dolphinDictionary');
+    if (!storageAvailable) {
+      setEntries(DOLPHIN_DICTIONARY);
+      return;
+    }
+
+    const stored = window.localStorage.getItem('dolphinDictionary');
     if (stored) {
       try {
         const parsed: DolphinSymbol[] = JSON.parse(stored);
@@ -21,7 +29,7 @@ export default function DolphinDictionary() {
     } else {
       setEntries(DOLPHIN_DICTIONARY);
     }
-  }, []);
+  }, [storageAvailable]);
 
   const addEntry = () => {
     if (!newSymbol.trim() || !newName.trim() || !newMeaning.trim()) return;
@@ -33,7 +41,9 @@ export default function DolphinDictionary() {
     const updated = [...entries, newEntry];
     setEntries(updated);
     const custom = updated.filter(e => !DOLPHIN_DICTIONARY.some(d => d.symbol === e.symbol));
-    localStorage.setItem('dolphinDictionary', JSON.stringify(custom));
+    if (storageAvailable) {
+      window.localStorage.setItem('dolphinDictionary', JSON.stringify(custom));
+    }
     setNewSymbol('');
     setNewName('');
     setNewMeaning('');
