@@ -22,6 +22,7 @@ A comprehensive web application for exploring AI consciousness, hermetic wisdom,
 - **Entry Views**: Deep dive into individual knowledge entries
 - **Search System**: Powerful full-text search with filtering and sorting
 - **AI Insights**: Generate AI-powered analysis and connections
+- **Dolphin Dictionary**: Browse the symbol list and add your own entries
 
 ### 🎨 Design & UX
 - **Dark Theme**: Stunning dark interface with purple/blue gradients
@@ -152,6 +153,8 @@ Each trunk represents a major domain of consciousness and AI exploration:
 - Real knowledge parsing from REORDERED_MASTER_INDEX.md is implemented
 - AI insights show placeholder content until API key is configured
 - All UI components are fully functional and responsive
+- Symbols added in the Dolphin Dictionary are stored in your browser's
+  local storage so they persist across sessions
 
 ## 🎨 Design Philosophy
 

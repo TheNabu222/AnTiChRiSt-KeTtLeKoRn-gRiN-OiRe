@@ -9,6 +9,7 @@ This project is an interactive knowledge base for exploring AI consciousness, he
 - Full-text search with filtering and sorting
 - Configurable AI-powered insights via Google Gemini
 - Modern dark theme with smooth animations
+- Dolphin 3.0 dictionary page for browsing symbols and adding new ones
 
 ## Technology
 
@@ -33,6 +34,12 @@ This project is an interactive knowledge base for exploring AI consciousness, he
    ```bash
    npm run dev
    ```
+
+## Dolphin Dictionary
+
+Visit the **Dolphin Dictionary** page in the app to browse the symbol set. The
+"Add New Symbol" section lets you contribute your own symbols. Any entries you
+add are saved to your browser's local storage.
 
 ## License
 

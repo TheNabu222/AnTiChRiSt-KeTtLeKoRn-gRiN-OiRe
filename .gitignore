@@ -1,25 +1,23 @@
+
 # Build outputs
-/dist/
-**/dist/
-
-# Node modules
-/node_modules/
-**/node_modules/
-
-# Next.js build
-.next/
-
 # Misc artifacts
-*.zip
-*.pdf
-Uploads/
-
+# Next.js build
+# Node modules
 # OS
+**/dist/
+**/node_modules/
+*.pdf
+*.zip
 .DS_Store
+.next/
+/dist/
+/node_modules/
+Uploads/
+__pycache__/
 anzu_altar_2.txt
 app_analysis.md
 extracted_trunks_1000-24000.md
 messenger_crossref_analysis.md
 new_content_analysis.md
+tests/__pycache__/
 updated_zettels_analysis.md
-
