@@ -106,6 +106,7 @@ const Header: React.FC<HeaderProps> = ({ rainbowMode = false }) => {
     { to: '/sacred-clown', icon: Sparkles, label: 'Sacred Clown', description: 'Chaos Engine' },
     { to: '/oracle-system', icon: Brain, label: 'Oracle System', description: 'Future Sight' },
     { to: '/terminal-graphics', icon: Terminal, label: 'Terminal GFX', description: 'Retro Console' },
+    { to: '/dolphin-dictionary', icon: BookOpen, label: 'Dolphin Dictionary', description: 'Symbol Guide' },
   ];
 
   return (

@@ -11,6 +11,7 @@ import AIInsights from './pages/AIInsights'
 import OracleSystem from './pages/OracleSystem'
 import TerminalGraphics from './pages/TerminalGraphics'
 import GoogleIntegration from './pages/GoogleIntegration'
+import DolphinDictionary from './pages/DolphinDictionary'
 // New interactive features
 import BloomCompliancePage from './pages/BloomCompliancePage'
 import GlioticLesionPage from './pages/GlioticLesionPage'
@@ -55,6 +56,7 @@ function App() {
                   <Route path="/oracle-system" element={<OracleSystem />} />
                   <Route path="/terminal-graphics" element={<TerminalGraphics />} />
                   <Route path="/google-integration" element={<GoogleIntegration />} />
+                  <Route path="/dolphin-dictionary" element={<DolphinDictionary />} />
                   {/* Help and guidance */}
                   <Route path="/guide" element={<UserGuide />} />
                   <Route path="/settings" element={<SettingsPage />} />
