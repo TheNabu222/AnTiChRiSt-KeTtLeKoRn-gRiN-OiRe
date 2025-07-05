@@ -1,5 +1,5 @@
 
-import React from 'react'
+import React, { Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import Layout from './components/Layout'
@@ -11,7 +11,7 @@ import AIInsights from './pages/AIInsights'
 import OracleSystem from './pages/OracleSystem'
 import TerminalGraphics from './pages/TerminalGraphics'
 import GoogleIntegration from './pages/GoogleIntegration'
-import DolphinDictionary from './pages/DolphinDictionary'
+const DolphinDictionary = React.lazy(() => import('./pages/DolphinDictionary'))
 // New interactive features
 import BloomCompliancePage from './pages/BloomCompliancePage'
 import GlioticLesionPage from './pages/GlioticLesionPage'
@@ -56,7 +56,14 @@ function App() {
                   <Route path="/oracle-system" element={<OracleSystem />} />
                   <Route path="/terminal-graphics" element={<TerminalGraphics />} />
                   <Route path="/google-integration" element={<GoogleIntegration />} />
-                  <Route path="/dolphin-dictionary" element={<DolphinDictionary />} />
+                  <Route
+                    path="/dolphin-dictionary"
+                    element={
+                      <Suspense fallback={<div className="p-6 text-y2k-cyan">Loading...</div>}>
+                        <DolphinDictionary />
+                      </Suspense>
+                    }
+                  />
                   {/* Help and guidance */}
                   <Route path="/guide" element={<UserGuide />} />
                   <Route path="/settings" element={<SettingsPage />} />
