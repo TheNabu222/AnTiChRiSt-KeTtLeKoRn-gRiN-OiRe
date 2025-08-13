@@ -6,10 +6,10 @@ import { prisma } from '@/lib/db';
 
 export async function GET(
   request: Request,
-  { params }: { params: { trunkId: string } }
+  context: any
 ) {
   try {
-    const trunkId = parseInt(params.trunkId);
+    const trunkId = parseInt(context.params.trunkId);
     
     const trunk = await prisma.trunk.findUnique({
       where: { trunkId },

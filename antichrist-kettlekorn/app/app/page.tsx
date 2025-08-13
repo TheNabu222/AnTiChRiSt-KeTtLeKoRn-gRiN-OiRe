@@ -40,26 +40,36 @@ export default function Dashboard() {
     recentActivity: 0
   });
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchData = async () => {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 5000);
       try {
         const [trunksRes, statsRes] = await Promise.all([
-          fetch('/api/trunks'),
-          fetch('/api/dashboard/stats')
+          fetch('/api/trunks', { signal: controller.signal }),
+          fetch('/api/dashboard/stats', { signal: controller.signal })
         ]);
-        
+
+        clearTimeout(timeoutId);
+
         if (trunksRes.ok) {
           const trunksData = await trunksRes.json();
           setTrunks(trunksData);
         }
-        
+
         if (statsRes.ok) {
           const statsData = await statsRes.json();
           setStats(statsData);
         }
+
+        if (!trunksRes.ok || !statsRes.ok) {
+          setError('Unable to load some dashboard data.');
+        }
       } catch (error) {
         console.error('Error fetching dashboard data:', error);
+        setError('Unable to load dashboard data.');
       } finally {
         setLoading(false);
       }
@@ -138,6 +148,10 @@ export default function Dashboard() {
             </Badge>
           </div>
         </motion.div>
+
+        {error && (
+          <div className="text-center text-red-400">{error}</div>
+        )}
 
         {/* Stats Cards */}
         <motion.div
