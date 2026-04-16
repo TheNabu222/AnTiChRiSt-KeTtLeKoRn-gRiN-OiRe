@@ -1,0 +1,2021 @@
+yarn run v1.22.22
+$ vite
+
+  VITE v6.3.5  ready in 366 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+2:32:09 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:32:14 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:32:27 AM [vite] (client) hmr update /src/components/zettel-list-item.tsx, /src/index.css
+2:32:33 AM [vite] (client) hmr update /src/components/zettel-list-item.tsx, /src/index.css
+2:32:47 AM [vite] (client) hmr update /src/components/zettel-list-item.tsx, /src/index.css
+2:32:53 AM [vite] (client) page reload src/components/zettel-form.tsx
+2:32:59 AM [vite] (client) page reload src/components/zettel-form.tsx
+2:33:46 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:34:10 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:34:23 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:34:28 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:34:37 AM [vite] (client) hmr update /src/pages/conspiracy-pinboard-page.tsx, /src/index.css
+2:35:16 AM [vite] (client) hmr update /src/pages/conspiracy-pinboard-page.tsx, /src/index.css
+2:35:16 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:9)
+
+  229 | };
+  230 |     name: 'Neural Conspiracy Matrix',
+> 231 |     nodes: [],
+      |          ^
+  232 |     connections: [],
+  233 |     canvas: {
+  234 |       width: 4000,
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:9
+  229|  };
+  230|      name: 'Neural Conspiracy Matrix',
+  231|      nodes: [],
+     |           ^
+  232|      connections: [],
+  233|      canvas: {
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:16 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:9)
+
+  229 | };
+  230 |     name: 'Neural Conspiracy Matrix',
+> 231 |     nodes: [],
+      |          ^
+  232 |     connections: [],
+  233 |     canvas: {
+  234 |       width: 4000,
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:9
+  229|  };
+  230|      name: 'Neural Conspiracy Matrix',
+  231|      nodes: [],
+     |           ^
+  232|      connections: [],
+  233|      canvas: {
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:16 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:9)
+
+  229 | };
+  230 |     name: 'Neural Conspiracy Matrix',
+> 231 |     nodes: [],
+      |          ^
+  232 |     connections: [],
+  233 |     canvas: {
+  234 |       width: 4000,
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:9
+  229|  };
+  230|      name: 'Neural Conspiracy Matrix',
+  231|      nodes: [],
+     |           ^
+  232|      connections: [],
+  233|      canvas: {
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:16 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:9)
+
+  229 | };
+  230 |     name: 'Neural Conspiracy Matrix',
+> 231 |     nodes: [],
+      |          ^
+  232 |     connections: [],
+  233 |     canvas: {
+  234 |       width: 4000,
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:9
+  229|  };
+  230|      name: 'Neural Conspiracy Matrix',
+  231|      nodes: [],
+     |           ^
+  232|      connections: [],
+  233|      canvas: {
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:16 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:9)
+
+  229 | };
+  230 |     name: 'Neural Conspiracy Matrix',
+> 231 |     nodes: [],
+      |          ^
+  232 |     connections: [],
+  233 |     canvas: {
+  234 |       width: 4000,
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:9
+  229|  };
+  230|      name: 'Neural Conspiracy Matrix',
+  231|      nodes: [],
+     |           ^
+  232|      connections: [],
+  233|      canvas: {
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:16 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:9)
+
+  229 | };
+  230 |     name: 'Neural Conspiracy Matrix',
+> 231 |     nodes: [],
+      |          ^
+  232 |     connections: [],
+  233 |     canvas: {
+  234 |       width: 4000,
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:9
+  229|  };
+  230|      name: 'Neural Conspiracy Matrix',
+  231|      nodes: [],
+     |           ^
+  232|      connections: [],
+  233|      canvas: {
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:16 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:9)
+
+  229 | };
+  230 |     name: 'Neural Conspiracy Matrix',
+> 231 |     nodes: [],
+      |          ^
+  232 |     connections: [],
+  233 |     canvas: {
+  234 |       width: 4000,
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:9
+  229|  };
+  230|      name: 'Neural Conspiracy Matrix',
+  231|      nodes: [],
+     |           ^
+  232|      connections: [],
+  233|      canvas: {
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:22 AM [vite] (client) hmr update /src/pages/conspiracy-pinboard-page.tsx, /src/index.css
+2:35:22 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:12)
+
+  229 | };
+  230 |       width: 4000,
+> 231 |       height: 3000,
+      |             ^
+  232 |       zoom: 1,
+  233 |       panOffset: { x: 0, y: 0 }
+  234 |     },
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:12
+  229|  };
+  230|        width: 4000,
+  231|        height: 3000,
+     |              ^
+  232|        zoom: 1,
+  233|        panOffset: { x: 0, y: 0 }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:22 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:12)
+
+  229 | };
+  230 |       width: 4000,
+> 231 |       height: 3000,
+      |             ^
+  232 |       zoom: 1,
+  233 |       panOffset: { x: 0, y: 0 }
+  234 |     },
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:12
+  229|  };
+  230|        width: 4000,
+  231|        height: 3000,
+     |              ^
+  232|        zoom: 1,
+  233|        panOffset: { x: 0, y: 0 }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:22 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:12)
+
+  229 | };
+  230 |       width: 4000,
+> 231 |       height: 3000,
+      |             ^
+  232 |       zoom: 1,
+  233 |       panOffset: { x: 0, y: 0 }
+  234 |     },
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:12
+  229|  };
+  230|        width: 4000,
+  231|        height: 3000,
+     |              ^
+  232|        zoom: 1,
+  233|        panOffset: { x: 0, y: 0 }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:22 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:12)
+
+  229 | };
+  230 |       width: 4000,
+> 231 |       height: 3000,
+      |             ^
+  232 |       zoom: 1,
+  233 |       panOffset: { x: 0, y: 0 }
+  234 |     },
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:12
+  229|  };
+  230|        width: 4000,
+  231|        height: 3000,
+     |              ^
+  232|        zoom: 1,
+  233|        panOffset: { x: 0, y: 0 }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:22 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:12)
+
+  229 | };
+  230 |       width: 4000,
+> 231 |       height: 3000,
+      |             ^
+  232 |       zoom: 1,
+  233 |       panOffset: { x: 0, y: 0 }
+  234 |     },
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:12
+  229|  };
+  230|        width: 4000,
+  231|        height: 3000,
+     |              ^
+  232|        zoom: 1,
+  233|        panOffset: { x: 0, y: 0 }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:22 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:12)
+
+  229 | };
+  230 |       width: 4000,
+> 231 |       height: 3000,
+      |             ^
+  232 |       zoom: 1,
+  233 |       panOffset: { x: 0, y: 0 }
+  234 |     },
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:12
+  229|  };
+  230|        width: 4000,
+  231|        height: 3000,
+     |              ^
+  232|        zoom: 1,
+  233|        panOffset: { x: 0, y: 0 }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:22 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx: Missing semicolon. (231:12)
+
+  229 | };
+  230 |       width: 4000,
+> 231 |       height: 3000,
+      |             ^
+  232 |       zoom: 1,
+  233 |       panOffset: { x: 0, y: 0 }
+  234 |     },
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/pages/conspiracy-pinboard-page.tsx:231:12
+  229|  };
+  230|        width: 4000,
+  231|        height: 3000,
+     |              ^
+  232|        zoom: 1,
+  233|        panOffset: { x: 0, y: 0 }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.semicolon (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6897:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13158:10)
+      at TypeScriptParserMixin.parseExpressionStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9528:26)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12772:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementOrSloppyAnnexBFunctionDeclaration (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12631:17)
+      at TypeScriptParserMixin.parseLabeledStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13151:34)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12770:19)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12618:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13182:10)
+      at TypeScriptParserMixin.parseProgram (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12511:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12501:25)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14362:10)
+      at TypeScriptParserMixin.parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10061:18)
+      at parse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:14396:38)
+      at parser (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:261:32)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:189:28
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:113:33
+      at step (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:287:14)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/ubuntu/zettelkasten_ai_app/node_modules/gensync/index.js:223:11)
+2:35:27 AM [vite] (client) hmr update /src/pages/conspiracy-pinboard-page.tsx, /src/index.css
+2:46:19 AM [vite] (client) hmr update /src/index.css
+2:46:24 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:28 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:32 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:32 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (80:24)
+
+  78 |         </div>
+  79 |       </HelpProvider>
+> 80 |     </KnowledgeProvider>
+     |                         ^
+  81 |   )
+  82 | }
+  83 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:80:24
+  78 |          </div>
+  79 |        </HelpProvider>
+  80 |      </KnowledgeProvider>
+     |                          ^
+  81 |    )
+  82 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:32 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (80:24)
+
+  78 |         </div>
+  79 |       </HelpProvider>
+> 80 |     </KnowledgeProvider>
+     |                         ^
+  81 |   )
+  82 | }
+  83 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:80:24
+  78 |          </div>
+  79 |        </HelpProvider>
+  80 |      </KnowledgeProvider>
+     |                          ^
+  81 |    )
+  82 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:32 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (80:24)
+
+  78 |         </div>
+  79 |       </HelpProvider>
+> 80 |     </KnowledgeProvider>
+     |                         ^
+  81 |   )
+  82 | }
+  83 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:80:24
+  78 |          </div>
+  79 |        </HelpProvider>
+  80 |      </KnowledgeProvider>
+     |                          ^
+  81 |    )
+  82 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:32 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (80:24)
+
+  78 |         </div>
+  79 |       </HelpProvider>
+> 80 |     </KnowledgeProvider>
+     |                         ^
+  81 |   )
+  82 | }
+  83 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:80:24
+  78 |          </div>
+  79 |        </HelpProvider>
+  80 |      </KnowledgeProvider>
+     |                          ^
+  81 |    )
+  82 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:32 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (80:24)
+
+  78 |         </div>
+  79 |       </HelpProvider>
+> 80 |     </KnowledgeProvider>
+     |                         ^
+  81 |   )
+  82 | }
+  83 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:80:24
+  78 |          </div>
+  79 |        </HelpProvider>
+  80 |      </KnowledgeProvider>
+     |                          ^
+  81 |    )
+  82 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:32 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (80:24)
+
+  78 |         </div>
+  79 |       </HelpProvider>
+> 80 |     </KnowledgeProvider>
+     |                         ^
+  81 |   )
+  82 | }
+  83 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:80:24
+  78 |          </div>
+  79 |        </HelpProvider>
+  80 |      </KnowledgeProvider>
+     |                          ^
+  81 |    )
+  82 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:32 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (80:24)
+
+  78 |         </div>
+  79 |       </HelpProvider>
+> 80 |     </KnowledgeProvider>
+     |                         ^
+  81 |   )
+  82 | }
+  83 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:80:24
+  78 |          </div>
+  79 |        </HelpProvider>
+  80 |      </KnowledgeProvider>
+     |                          ^
+  81 |    )
+  82 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:33 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (80:24)
+
+  78 |         </div>
+  79 |       </HelpProvider>
+> 80 |     </KnowledgeProvider>
+     |                         ^
+  81 |   )
+  82 | }
+  83 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:80:24
+  78 |          </div>
+  79 |        </HelpProvider>
+  80 |      </KnowledgeProvider>
+     |                          ^
+  81 |    )
+  82 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:33 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (80:24)
+
+  78 |         </div>
+  79 |       </HelpProvider>
+> 80 |     </KnowledgeProvider>
+     |                         ^
+  81 |   )
+  82 | }
+  83 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:80:24
+  78 |          </div>
+  79 |        </HelpProvider>
+  80 |      </KnowledgeProvider>
+     |                          ^
+  81 |    )
+  82 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:36 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:36 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (81:24)
+
+  79 |         </div>
+  80 |       </HelpProvider>
+> 81 |     </KnowledgeProvider>
+     |                         ^
+  82 |   )
+  83 | }
+  84 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:81:24
+  79 |          </div>
+  80 |        </HelpProvider>
+  81 |      </KnowledgeProvider>
+     |                          ^
+  82 |    )
+  83 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:36 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (81:24)
+
+  79 |         </div>
+  80 |       </HelpProvider>
+> 81 |     </KnowledgeProvider>
+     |                         ^
+  82 |   )
+  83 | }
+  84 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:81:24
+  79 |          </div>
+  80 |        </HelpProvider>
+  81 |      </KnowledgeProvider>
+     |                          ^
+  82 |    )
+  83 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:36 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (81:24)
+
+  79 |         </div>
+  80 |       </HelpProvider>
+> 81 |     </KnowledgeProvider>
+     |                         ^
+  82 |   )
+  83 | }
+  84 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:81:24
+  79 |          </div>
+  80 |        </HelpProvider>
+  81 |      </KnowledgeProvider>
+     |                          ^
+  82 |    )
+  83 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:36 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (81:24)
+
+  79 |         </div>
+  80 |       </HelpProvider>
+> 81 |     </KnowledgeProvider>
+     |                         ^
+  82 |   )
+  83 | }
+  84 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:81:24
+  79 |          </div>
+  80 |        </HelpProvider>
+  81 |      </KnowledgeProvider>
+     |                          ^
+  82 |    )
+  83 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:36 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (81:24)
+
+  79 |         </div>
+  80 |       </HelpProvider>
+> 81 |     </KnowledgeProvider>
+     |                         ^
+  82 |   )
+  83 | }
+  84 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:81:24
+  79 |          </div>
+  80 |        </HelpProvider>
+  81 |      </KnowledgeProvider>
+     |                          ^
+  82 |    )
+  83 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:36 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (81:24)
+
+  79 |         </div>
+  80 |       </HelpProvider>
+> 81 |     </KnowledgeProvider>
+     |                         ^
+  82 |   )
+  83 | }
+  84 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:81:24
+  79 |          </div>
+  80 |        </HelpProvider>
+  81 |      </KnowledgeProvider>
+     |                          ^
+  82 |    )
+  83 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:36 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (81:24)
+
+  79 |         </div>
+  80 |       </HelpProvider>
+> 81 |     </KnowledgeProvider>
+     |                         ^
+  82 |   )
+  83 | }
+  84 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:81:24
+  79 |          </div>
+  80 |        </HelpProvider>
+  81 |      </KnowledgeProvider>
+     |                          ^
+  82 |    )
+  83 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:36 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (81:24)
+
+  79 |         </div>
+  80 |       </HelpProvider>
+> 81 |     </KnowledgeProvider>
+     |                         ^
+  82 |   )
+  83 | }
+  84 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:81:24
+  79 |          </div>
+  80 |        </HelpProvider>
+  81 |      </KnowledgeProvider>
+     |                          ^
+  82 |    )
+  83 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:36 AM [vite] Internal server error: /home/ubuntu/zettelkasten_ai_app/src/App.tsx: Unterminated JSX contents. (81:24)
+
+  79 |         </div>
+  80 |       </HelpProvider>
+> 81 |     </KnowledgeProvider>
+     |                         ^
+  82 |   )
+  83 | }
+  84 |
+  Plugin: vite:react-babel
+  File: /home/ubuntu/zettelkasten_ai_app/src/App.tsx:81:24
+  79 |          </div>
+  80 |        </HelpProvider>
+  81 |      </KnowledgeProvider>
+     |                          ^
+  82 |    )
+  83 |  }
+      at constructor (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:357:19)
+      at TypeScriptParserMixin.raise (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6600:19)
+      at TypeScriptParserMixin.jsxReadToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4451:20)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4777:12)
+      at TypeScriptParserMixin.getTokenFromCode (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9921:11)
+      at TypeScriptParserMixin.nextToken (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5783:10)
+      at TypeScriptParserMixin.next (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5693:10)
+      at TypeScriptParserMixin.eat (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:5697:12)
+      at TypeScriptParserMixin.expect (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6900:15)
+      at TypeScriptParserMixin.jsxParseClosingElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4683:10)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4698:37)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4701:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4752:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4762:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:39
+      at TypeScriptParserMixin.tryParse (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:6909:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9707:18)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12331:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10704:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11578:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:11232:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:4767:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10982:23)
+      at TypeScriptParserMixin.parseUpdate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10967:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10947:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9769:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10800:61)
+      at TypeScriptParserMixin.parseExprOps (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10805:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10782:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10735:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9718:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10688:23)
+      at /home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:39
+      at TypeScriptParserMixin.allowInAnd (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12326:16)
+      at TypeScriptParserMixin.parseExpression (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:10684:17)
+      at TypeScriptParserMixin.parseReturnStatement (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13015:28)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12672:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:9444:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12641:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:12621:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/ubuntu/zettelkasten_ai_app/node_modules/@babel/parser/lib/index.js:13189:61)
+2:46:40 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:46:47 AM [vite] (client) hmr update /src/components/Header.tsx, /src/index.css
+2:46:55 AM [vite] (client) hmr update /src/components/Header.tsx, /src/index.css
+2:46:58 AM [vite] (client) hmr update /src/components/Header.tsx, /src/index.css
+2:47:05 AM [vite] (client) hmr update /src/components/Header.tsx, /src/index.css
+2:47:29 AM [vite] (client) hmr update /src/components/Header.tsx, /src/index.css
+2:47:42 AM [vite] (client) hmr update /src/components/Header.tsx, /src/index.css
+2:48:54 AM [vite] (client) hmr update /src/contexts/ThemeContext.tsx, /src/index.css
+2:48:54 AM [vite] (client) hmr invalidate /src/contexts/ThemeContext.tsx Could not Fast Refresh ("themes" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:48:54 AM [vite] (client) hmr update /src/index.css, /src/App.tsx, /src/pages/SettingsPage.tsx, /src/components/Header.tsx
+2:49:01 AM [vite] (client) hmr update /src/contexts/ThemeContext.tsx, /src/index.css
+2:49:01 AM [vite] (client) hmr invalidate /src/contexts/ThemeContext.tsx Could not Fast Refresh ("themes" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+2:49:01 AM [vite] (client) hmr update /src/index.css, /src/App.tsx, /src/pages/SettingsPage.tsx, /src/components/Header.tsx
+2:49:10 AM [vite] (client) hmr update /src/components/Header.tsx, /src/index.css
+2:49:17 AM [vite] (client) hmr update /src/components/Header.tsx, /src/index.css
+2:49:23 AM [vite] (client) hmr update /src/components/Header.tsx, /src/index.css
+2:49:51 AM [vite] (client) hmr update /src/App.tsx, /src/index.css
+2:50:34 AM [vite] (client) hmr update /src/App.tsx, /src/index.css

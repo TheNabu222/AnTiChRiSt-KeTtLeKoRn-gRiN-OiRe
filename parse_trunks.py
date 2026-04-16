@@ -5,7 +5,7 @@ Parser for extracting trunk content from 1000-24000 from the uploaded file.
 """
 
 import re
-import argparse
+import os
 
 def parse_trunks(file_path):
     """Parse the file and extract all trunk content from 1000-24000."""
@@ -277,32 +277,17 @@ def generate_markdown(trunks, output_path):
             f.write("---\n\n")
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="Parse a text file for trunk content and output a markdown summary."
-    )
-    parser.add_argument(
-        "--input",
-        default="Uploads/Untitled 4.txt",
-        help="Path to the input text file"
-    )
-    parser.add_argument(
-        "--output",
-        default="extracted_trunks_1000-24000.md",
-        help="Path to save the generated markdown"
-    )
-    args = parser.parse_args()
-
-    input_file = args.input
-    output_file = args.output
-
+    input_file = "/home/ubuntu/Uploads/Untitled 4.txt"
+    output_file = "/home/ubuntu/extracted_trunks_1000-24000.md"
+    
     print("Parsing trunk content...")
     trunks = parse_trunks(input_file)
-
+    
     print(f"Found {len(trunks)} trunks in range 1000-24000")
-
+    
     print("Generating markdown output...")
     generate_markdown(trunks, output_file)
-
+    
     print(f"Extraction complete! Output saved to: {output_file}")
     
     # Print summary

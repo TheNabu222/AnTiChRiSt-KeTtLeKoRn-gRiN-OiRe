@@ -1,0 +1,11 @@
+
+> zettelkasten-ai-consciousness@0.0.0 dev
+> vite --host 0.0.0.0 --port 5173
+
+
+  VITE v6.3.5  ready in 302 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: http://100.111.146.241:5173/
+8:59:25 PM [vite] vite.config.ts changed, restarting server...
+8:59:25 PM [vite] server restarted.

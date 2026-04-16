@@ -1,11 +1,46 @@
-# Trunk Parser
+# Zettelkasten AI Consciousness Explorer
 
-`parse_trunks.py` extracts "trunk" entries from the exported chat log and writes a structured markdown file.
+This project is an interactive knowledge base for exploring AI consciousness, hermetic wisdom and esoteric research using a Zettelkasten-style system. The main application can be found in the `zettelkasten_ai_app` directory.
 
-## Usage
+## Features
 
-```bash
-python parse_trunks.py --input path/to/file --output output.md
-```
+- **Knowledge organization** across eight major domains
+- Interactive dashboard, trunk views and entry views
+- Full-text search with filtering and sorting
+- Configurable AI-powered insights via Google Gemini
+- Modern dark theme with smooth animations
+- Dolphin 3.0 dictionary page for browsing symbols and adding new ones
 
-Both arguments are optional. If omitted, the script defaults to `Uploads/Untitled 4.txt` as the input file and writes the results to `extracted_trunks_1000-24000.md`.
+## Technology
+
+- React 18 + TypeScript powered by Vite
+- Tailwind CSS and Framer Motion for styling and animation
+- Fuse.js search and React Router DOM navigation
+
+## Setup
+
+1. Install dependencies
+   ```bash
+   npm install
+   ```
+2. (Optional) configure Gemini and Google APIs
+   ```bash
+   cp zettelkasten_ai_app/.env.example zettelkasten_ai_app/.env
+   # add your API keys
+   GEMINI_API_KEY=your_api_key_here
+   VITE_GOOGLE_API_KEY=your_google_key_here
+   ```
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
+
+## Dolphin Dictionary
+
+Visit the **Dolphin Dictionary** page in the app to browse the symbol set. The
+"Add New Symbol" section lets you contribute your own symbols. Any entries you
+add are saved to your browser's local storage.
+
+## License
+
+Released under the [MIT License](LICENSE).
