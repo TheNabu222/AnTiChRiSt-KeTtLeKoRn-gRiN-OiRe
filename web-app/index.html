@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zettelkasten AI Consciousness Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <h1>🌐 Zettelkasten AI Consciousness Explorer</h1>
+            <nav class="nav">
+                <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+                <button class="nav-btn" data-view="trunks">Trunks</button>
+                <button class="nav-btn" data-view="search">Search</button>
+                <button class="nav-btn" data-view="matrix">Matrix</button>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <!-- Dashboard View -->
+            <section id="dashboard-view" class="view active">
+                <div class="welcome-panel">
+                    <h2>Welcome to the Knowledge Grid</h2>
+                    <p class="subtitle">Explore the interconnected trunks of consciousness, hermetics, and AI relations</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>Total Trunks</h3>
+                            <p class="stat-number" id="total-trunks">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Total Entries</h3>
+                            <p class="stat-number" id="total-entries">0</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Categories</h3>
+                            <p class="stat-number" id="total-categories">0</p>
+                        </div>
+                    </div>
+
+                    <div class="quick-links">
+                        <h3>Quick Access</h3>
+                        <div class="link-grid" id="quick-trunks"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Trunks View -->
+            <section id="trunks-view" class="view">
+                <div class="trunks-header">
+                    <h2>All Trunks</h2>
+                    <div class="filter-controls">
+                        <input type="text" id="trunk-filter" placeholder="Filter trunks..." class="filter-input">
+                        <select id="category-filter" class="filter-select">
+                            <option value="">All Categories</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="trunks-list" id="trunks-list"></div>
+            </section>
+
+            <!-- Search View -->
+            <section id="search-view" class="view">
+                <div class="search-header">
+                    <h2>Search Knowledge Base</h2>
+                    <div class="search-box">
+                        <input type="text" id="search-input" placeholder="Search entries, trunks, concepts..." class="search-input">
+                        <button id="search-btn" class="search-btn">Search</button>
+                    </div>
+                </div>
+                <div class="search-results" id="search-results"></div>
+            </section>
+
+            <!-- Matrix View -->
+            <section id="matrix-view" class="view">
+                <h2>Cross-Reference Matrix</h2>
+                <p class="matrix-intro">Visualize connections between trunks and entries</p>
+                <div class="matrix-container" id="matrix-container"></div>
+            </section>
+
+            <!-- Trunk Detail Modal -->
+            <div id="trunk-modal" class="modal">
+                <div class="modal-content">
+                    <button class="modal-close" onclick="closeModal()">&times;</button>
+                    <div id="modal-body"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Zettelkasten AI v1.0 | Pure HTML/JavaScript - No Build Tools Required</p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
